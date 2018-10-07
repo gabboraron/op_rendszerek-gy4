@@ -2,7 +2,7 @@
 
 saját folyamatok kilistázása: `ps aux | sajátazonosító`
 >  2^4 foylamatunk van
->  a prompt hamarabb ér vissza mert a szülő folyamat befejeződik, de a gyerek nem, ezt `wait` vagy `waitpid` -del kivédhető, a `eait` tel egy tetszőleges foylamatra várok, míg utóbbival megmondható hogy pontosan melyikre.
+>  a prompt hamarabb ér vissza mert a szülő folyamat befejeződik, de a gyerek nem, ezt `wait` vagy `waitpid` -del kivédhető, a `wait` tel egy tetszőleges foylamatra várok, míg utóbbival megmondható hogy pontosan melyikre.
 
 ```` C
 int main (){
